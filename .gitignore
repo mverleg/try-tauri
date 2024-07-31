@@ -1,3 +1,6 @@
 /target
 /dist/
 /.idea/
+node_modules/
+src-tauri/
+.svelte-kit/

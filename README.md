@@ -2,12 +2,17 @@
 
 This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
 
-## 
+## My local
+
+Run with:
+
+```
+npm run tauri dev
+```
+
+Does not work due to gpu driver issue (note Electron works fine). Fewer errors with:
 
 ```
 MESA_LOADER_DRIVER_OVERRIDE=radeonsi
 ```
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
